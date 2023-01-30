@@ -1,0 +1,194 @@
+// infix방식을 postfix구조로 변환 및 스택 저장
+// 결과값을 산출하여 출력 이놈이 문제다 왜안되냐ㅑㅑㅑㅑㅑㅑtqtqtqtqtqtqtqtqtqtqtq
+#include <iostream>
+
+using namespace std;
+
+
+char stack[50];
+int top = -1;
+
+void addStack(char op)
+{
+	stack[++top] = op;
+};
+char delStack()
+{
+	char op;
+	if (top <= -1)
+		return stack[0];
+	op = stack[top--];
+	return op;
+}
+
+int operand(char x) {		//char x 가 연산자냐 아니냐
+	char op[8] = { '(',')','+','-','*','/','^','\0' };
+	for (int i = 0; i<8; i++)
+		if (op[i] == x)
+			return 0;
+	return 1;
+};
+int Isp(char x) {
+	char op[8] = { '(',')','+','-','*','/','^','\0' };
+	int sp[8] = { 0,4,1,1,2,2,3,0 };	//연산자 우선순위
+	int i;
+	for (i = 0; i<8; i++)
+		if (op[i] == x)
+			return sp[i];
+	cout << "연산자 에러\n";
+	return 0;
+};
+int Icp(char x) {
+	char op[8] = { '(',')','+','-','*','/','^','\0' };
+	int cp[8] = { 5,4,1,1,2,2,3,0 };	// 연산자 우선순위
+	int i;
+	for (i = 0; i<8; i++)
+		if (op[i] == x)
+			return cp[i];
+
+	cout << "연산자 에러\n";
+	return 0;
+};
+int cal(char op, char token1, char token2) {
+	int sum =1;
+	switch (op) {
+	case'+':
+		sum = token1 + token2;
+		break;
+	case '-':
+		sum = token1 - token2;
+		break;
+	case '*':
+		sum = token1 * token2;
+		break;
+	case '/':
+		sum = token1 / token2;
+	case '^':
+		for (int i = 0; i < token2; i++)
+			sum *= token1;
+		break;
+
+	}
+	return sum;
+}
+void postfix(char *token, char *post) {
+	int sum;
+	char x;
+	int pi = 0;		
+	top = -1;
+	addStack('\0');
+	for (int i = 0; token[i] != '\0'; i++)
+	{
+		x = token[i];
+		if (operand(x))
+			post[pi++] = x;	
+		else if (x == ')') {	// 가로(),  ')'일 경우 '('까지 연산자 pop해줄것
+			while (stack[top] != '(') 
+				post[pi++] = delStack();
+			delStack();
+		}
+		else {
+			while (Isp(stack[top]) >= Icp(x))
+				post[pi++] = delStack();
+			addStack(x);
+		}
+	}
+	while ((x = delStack()) != '\0')
+		post[pi++] = x;
+	post[pi] = '\0';
+	return;
+};
+int sum(char *post) {
+	char token;
+	int size;
+	int i;
+	int a,b;
+	int arr[50];
+	for (i = 0; post[i] != '\0'; i++);
+	size = i;		//postfix 크기 확인
+	for (int m = 0; post[m] != '\0'; m++) {
+		arr[m] = atoi(&post[m]);
+	}
+	for (i =0; i<size; i++) {
+		if (!operand(post[i])) {	// 연산자 확인
+			token = post[i];					// 피연산자가 아닌 연산자일 경우
+			switch (token) {
+			case '+':
+				post[i - 2] = post[i - 2] - 48 + post[i - 1] - 48; // 아스키코드표에 의해서 숫자크기만큼 표현됨....쉗
+				// 피연산자끼리 연산 후 앞 피연산자에 값 저장
+				for (int j = i - 1; j + 2 <= size; j++) {
+					post[j] = post[j + 2];
+				}	// 연산 후 필요없는 연산자 및 피연산자 제거
+				size -= 2;	//해당 배열 크기 제거
+				break;
+			case '-':
+				post[i - 2] = (post[i - 2] - 48) - (post[i - 1] - 48);
+				for (int j = i - 1; j + 2 <= size; j++) {
+					post[j] = post[j + 2];
+				}
+				size -= 2;
+				break;
+			case'*':
+				post[i - 2] = (post[i - 2] - 48) * (post[i - 1] - 48);
+				for (int j = i - 1; j + 2 <= size; j++) {
+					post[j] = post[j + 2];
+				}
+				size -= 2;
+				break;
+			case'/':
+				post[i - 2] = (post[i - 2] - 48) / (post[i - 1] - 48);
+				for (int j = i - 1; j + 2 <= size; j++) {
+					post[j] = post[j + 2];
+				}
+				size -= 2;
+				break;
+			case'^':
+				a = post[i - 2]-48;
+				b = post[i - 1]-48;
+				for (int l = 1; l < b; l++) {
+					a *= a;
+				}
+				post[i - 2] = a;
+				for (int j = i - 1; j + 2 <= size; j++) {
+					post[j] = post[j + 2];
+				}
+				size -= 2;
+				break;
+				
+			}
+		}
+	}
+	return post[0];
+};
+
+
+int sumin(char *in) {
+	int size, i;
+	char op[] = { '(',')','+','-','*','/','^','\0' };
+	char *token;
+	int *p;
+	token = strtok(in, op);
+
+	for (i = 0; in[i] != '\0'; i++);
+	size = i;
+	p[i] = token[i];
+	for (i = 1; i < size; i++) {
+		p[i] = atoi(strtok(NULL,op));
+	}
+
+
+	return 0;
+};
+void main()
+{
+	char in[100];
+	char post[100];
+		cout << "입력 : ";
+		cin >> in;
+		postfix(in, post);
+	
+		cout << "후위표기방식 : " << post
+			<< endl << "결과 : ";
+		
+		cout << sum(post) << endl;
+}

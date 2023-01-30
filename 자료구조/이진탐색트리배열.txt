@@ -1,0 +1,196 @@
+/*
+Flow chart
+0. 모든 bst의 데이터를 null값으로 지정해준다.
+1. 루트노드를 정한다.
+1-1. bst의 탐색 인덱스를 x로 지정	x = 0;
+1-2. 저장된 문자열의 데이터 인덱스를 q로 지정
+1-3. if(bst[x][0] != NULL)if(bst[x][0]<str[q][0])bst[x]=str[q]; break;
+2-0. is next data '0' ? yes - 6번 명령으로 이동한다.
+while(pow(2,size)-- ) 레벨 L보다 큰가? y- L++; /// n- this tree level is L
+2. next data compare with root 루트노드와 비교한다.
+
+3. 작을 경우 좌측 자식 노드와 비교한다.
+3-1. 좌측 자식노드가 비어있는가?
+y-> 값을 넣는다.
+n-> 비교후 값의 크기에 따라 좌측 우측 구분한다.
+4. 크거나 같을 경우 우측 자식 노드와 비교한다.
+4-1. 우측 자식노드가 비어있는가?
+y-> 값을 넣는다.
+n-> 비교후 값의 크기에 따라 좌측 우측 구분한다.
+루트값을 해당 노드 값이라 가정 후 3번 명령부터 다시 시작한다. 
+
+5-0. 값을 대입 후 break로 루프를 빠져나온다.
+5. 다음 값으로 2번부터 실행한다.
+
+6. inorder travel 실행 전 level을 확인해준다.	cf) level start from 1, not 0
+7. 새로운 변수 선언하여 L까지 ++해주는 루프를 실행시킨다.
+8. level 1인 경우 배열에 0의 값을 0번지에 저장한다.
+9. 레벨이 올라가면 각 터미널 노드에 해당되는 인덱스인 2^(L-1)-1 부터 ++하여 2^(L-2)개의 터미널 노드를 확인
+10. 해당 터미널 노드 좌우측의 공간을 memmove함수로 비워주고,
+idx에 leftchild idx, idx+1에 기존 idx, idx+2에 rightchild idx 를 넣어준다.
+11. 2^(L-2)만큼 루프를 돌려준다.
+12. 루프가 끝난 후 만들어진 배열을 토대로 output해준다. 
+*/
+#include<iostream>
+#include<string.h>
+#include<math.h>
+using namespace std;
+
+void output(int r,char (*p)[256]);
+//int inord(int lev, int * p, int idx);
+
+void main() {
+	char ch[256][256];
+	bool a = true;
+	int lev = 1;
+	int i = 0;
+	int last = 0;
+	cout << "문자열 입력하여 inorder 탐색" << endl;
+
+	while (a) {
+		cout << "문자 입력(0입력시 종료) : ";
+		cin >> ch[i];
+		if (ch[i][0] == '0')
+			a = false;
+		i++;
+	}
+	// 입력 받은 문자열 저장
+
+	char str[256][256]; //이진탐색트리 형태로 변환하기 위한 공간
+	for (int j = 0; j < 256; j++) {
+		for (int v = 0; v < 256; v++)
+			str[j][v] = NULL;			// 가장 작은 수
+	}
+
+	for (int j = 0; j < 256; j++)
+		str[0][j] = ch[0][j];  //set root node
+	
+	for (int q = 1; q < i; q++) {
+		if (ch[q][0] != '0') {
+			for (int j = 0; j < 256;) { // 노드 탐색
+				if (str[j][0] >= ch[q][0]) {			//넣고자 하는 데이터가 루트값보다 작을 경우
+					if (str[2 * j + 1][0] == NULL) {		//empty node	
+						for (int w = 0; ch[q][w] != NULL; w++) {
+							str[2 * j + 1][w] = ch[q][w];
+						}
+						break;
+					}
+					else {
+						j = 2 * j + 1;
+					}
+				}
+				else {									// 넣고자 하는 데이터가 루트값보다 클 경우
+					if (str[2 * j + 2][0] == NULL) {
+						for (int w = 0; ch[q][w] != NULL; w++) {
+							str[2 * j + 2][w] = ch[q][w];
+						}
+						break;
+					}
+					else {
+						j = j * 2 + 2;
+					}
+				}
+			}
+		}
+		else {				// 종료 코드 '0' 가 나온 경우
+			int x = 256;	//최대 설정가능한 인덱스 노드
+			int k = 0;
+			int idx = 0;		// 최후의 터미널 노드 인덱스값
+			while (x != k) {	//살짝 억지 탐색...
+				if (str[k][0] >= 'a') {
+					idx = k;
+				}
+				k++;
+			}			//이거는 마지막 노드 위치 찾는거고
+			for (; lev < 10; lev++) {	//최대 10레벨로 가정하자. 이거는 레벨찾는거고,,,,
+				if ((pow(2.0, lev) - 2) > idx) {
+					break;
+				}
+			}
+			last = idx;
+		}
+	}
+	cout << "레벨 : " << lev << endl;
+	
+
+	
+	int m = 1;
+	for (int q = 0; q < pow(2.0,lev)-1; q++) {
+		/*int count = i - 1;
+		for (int c = m; c < count--; c++)
+			cout << '\t';
+		m++;*/
+		cout << str[q][0];
+		cout << '.' << ' '<< ' ';
+		for (int w = 0; w < 10; w++)
+			if (q + 1 == pow(2.0, w) - 1) {
+				cout << endl;
+			}
+	}
+
+	cout << endl << endl << "inorder travel"
+		<< endl << "--------------------" << endl << endl;
+	//inorder travel
+
+	//  탐색 배열 설정 하여 인덱스 값에 따라서 탐색하면서 해당 데이터를 bst의 인덱스 값으로 출력토록 함
+
+	int arr[256];
+	for (int i = 0; i < 256; i++)
+		arr[i] = 0;
+	*arr = 1;
+	*(arr + 1) = 0;
+	*(arr + 2) = 2;
+
+	
+	
+	for (int lv = 2; lv < lev; lv++) {
+		int x = pow(2.0, lv - 1) - 1;		// 전(pre) 레벨의 좌측 터미널 노드 인덱스 값
+		for (int a = 0; a < pow(2.0, lv - 1); a++) {	// 전 레벨의 터미널 노드 수 만큼 루프
+			for (int i = 0; i < 256; i++) {	//배열을 탐색 및 수정하는 과정 , 배열의 크기 256으로 하자 (수정가능)
+				if (*(arr + i) == x) {
+					memmove(arr + i + 2, arr + i, (pow(2.0, lv) - 1 - 2 * a) * sizeof(int));	//2개 공간 추가
+					*(arr + i + 1) = x;
+					*(arr + i) = 2 * x + 1;				//좌측 자식 노드 인덱스
+					*(arr + i + 2) = 2 * x + 2;			//우측 자식 노드 인덱스
+					break;
+				}
+			}
+			x++;
+		}
+	}
+
+
+
+	for (int idx=0; idx < (pow(2.0, lev) - 2); idx++) {
+		output(arr[idx], str);
+	}
+	cout << endl << endl;
+}
+void output(int r,char (*p)[256]) {
+	if (p[r][0] != NULL) {
+		for (int o = 0; p[r][o] != NULL; o++)
+			cout << p[r][o];
+		cout << endl;
+	}
+}
+
+// 7 3 8 1 9 4 10 0 11 5 12 2 13 6 14
+//0			lev == 1;
+//102		lev == 2;
+//3140526
+
+
+/*int inord(int lev, int * p, int idx) {
+	int x = pow(2.0, lev - 2) - 1;		// 전(pre) 레벨의 좌측 터미널 노드 인덱스 값
+	for (int a = 0; a < pow(2.0, lev-2); a++) {	// 전 레벨의 터미널 노드 수 만큼 루프
+		for (int i = 0; i < 256; i++) {	//배열을 탐색 및 수정하는 과정 , 배열의 크기 256으로 하자 (수정가능)
+			if (*(p + i) == x) {
+				memmove(p + i, p + i + 2, pow(2.0, lev) - 1 - 2 * a);	//2개 공간 추가
+				*(p + i) = 2 * x + 1;				//좌측 자식 노드 인덱스
+				*(p + i + 2) = 2 * x + 2;			//우측 자식 노드 인덱스
+			}
+			x++;
+		}
+	}
+	return *(p+idx);
+}*/

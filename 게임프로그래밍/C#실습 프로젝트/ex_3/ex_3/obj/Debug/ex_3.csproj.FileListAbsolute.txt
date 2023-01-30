@@ -1,0 +1,6 @@
+C:\Users\cyxw0w\source\repos\ex_3\ex_3\bin\Debug\ex_3.exe.config
+C:\Users\cyxw0w\source\repos\ex_3\ex_3\bin\Debug\ex_3.exe
+C:\Users\cyxw0w\source\repos\ex_3\ex_3\bin\Debug\ex_3.pdb
+C:\Users\cyxw0w\source\repos\ex_3\ex_3\obj\Debug\ex_3.csproj.CoreCompileInputs.cache
+C:\Users\cyxw0w\source\repos\ex_3\ex_3\obj\Debug\ex_3.exe
+C:\Users\cyxw0w\source\repos\ex_3\ex_3\obj\Debug\ex_3.pdb

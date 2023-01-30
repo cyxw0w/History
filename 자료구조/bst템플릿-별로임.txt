@@ -1,0 +1,97 @@
+#include <iostream>
+#include<string>
+#define null 0
+using namespace std;
+
+template <typename T>
+class Tree;
+
+template <typename T>
+class Node {
+	friend class Tree<T>;
+private:
+	T data;
+	Node* left;
+	Node* right;
+public:
+	Node(T data = "", Node* left = null, Node* right = null) {	//data is string type // T == string
+		this->data = data;
+		this->left = left;
+		this->right = right;
+	}
+};
+
+template <typename T>
+class Tree {
+private:
+	Node<T> * root;
+public:
+	Tree(T data = "") {	//set root node
+		root = new Node<T>(data);
+	}
+	void setTree() {							// str 입력받아서 strtok함수로 넣자
+		//insrt(new TreeNode<string>("data"));	//fuck strtok
+		insrt(new Node<string>("structure"));			
+		insrt(new Node<string>("is"));
+		insrt(new Node<string>("one"));
+		insrt(new Node<string>("of"));
+		insrt(new Node<string>("the"));
+		insrt(new Node<string>("most"));
+		insrt(new Node<string>("important"));
+		insrt(new Node<string>("courses"));
+		insrt(new Node<string>("in"));
+		insrt(new Node<string>("computer"));
+		insrt(new Node<string>("science"));
+	}
+	//cur 현재 들고 있는 데이터 
+	void insrt(Node<T> * node) {
+			Node<T>* parent = null;
+			Node<T>* cur = root;
+			while (cur != null) {
+				parent = cur;
+				if (node->data <= parent->data) {
+					cur = cur->left;					//재귀법 쓰기	인덱스값 2*x + 1
+				}
+				else {
+					cur = cur->right;					// idx 2*x + 2
+				}
+			}
+			if (node->data < parent->data) {
+				parent->left = node;
+			}
+			else {
+				parent->right = node;
+			}
+			cout << "삽입 :  " << node->data << endl;
+	}
+
+	Node<T> * get() {		// get root
+		return root;
+	}
+
+	void inord(Node<T> * cur) {		//중위 순회 좌-루-우
+		if (cur != null) {
+			
+			inord(cur->left);
+			go(cur);
+			inord(cur->right);
+		}
+	}
+
+	void go(Node<T> * cur) {			// visiting node plz
+		cout << cur->data << " ";		
+	}
+};
+
+void main() {
+	string str = "data";
+	cout << "루트 노드 : " << str << endl;
+
+	Tree<string> tree(str);
+	tree.setTree();
+
+	cout << "중위 순회 : ";
+	tree.inord(tree.get());
+	cout << endl;
+}
+

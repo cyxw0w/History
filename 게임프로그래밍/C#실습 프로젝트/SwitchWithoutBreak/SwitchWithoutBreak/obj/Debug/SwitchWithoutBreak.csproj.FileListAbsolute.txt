@@ -1,0 +1,6 @@
+C:\Users\cyxw0w\source\repos\SwitchWithoutBreak\SwitchWithoutBreak\bin\Debug\SwitchWithoutBreak.exe.config
+C:\Users\cyxw0w\source\repos\SwitchWithoutBreak\SwitchWithoutBreak\bin\Debug\SwitchWithoutBreak.exe
+C:\Users\cyxw0w\source\repos\SwitchWithoutBreak\SwitchWithoutBreak\bin\Debug\SwitchWithoutBreak.pdb
+C:\Users\cyxw0w\source\repos\SwitchWithoutBreak\SwitchWithoutBreak\obj\Debug\SwitchWithoutBreak.csproj.CoreCompileInputs.cache
+C:\Users\cyxw0w\source\repos\SwitchWithoutBreak\SwitchWithoutBreak\obj\Debug\SwitchWithoutBreak.exe
+C:\Users\cyxw0w\source\repos\SwitchWithoutBreak\SwitchWithoutBreak\obj\Debug\SwitchWithoutBreak.pdb

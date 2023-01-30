@@ -1,0 +1,151 @@
+BackupNameAttachment=" Build(0) 12 Nov 19 (20 25 57)"  -- used by backup system
+Log Started at 11/12/19 20:25:57
+Built on Jun 21 2016 16:48:02
+Running 64 bit Windows version
+Executable: C:\Users\cyxw0w\Desktop\클라우드\GameLift_MultiplayerSampleClient\GameLiftSampleClient\Bin64.Release\MultiplayerProjectLauncher.exe
+FileVersion: 0.0.0.0
+ProductVersion: 0.0.0.0 - Build 0
+Using Microsoft (tm) C++ Standard Library implementation
+
+Total number of logical processors: 12
+Number of available logical processors: 12
+Total number of system cores: 6
+Number of cores available to process: 6
+ 
+Processor 0:
+  CPU: Intel Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+  Family: 6, Model: 14, Stepping: 10
+  FPU: On-Chip
+  3DNow!: not present
+  MMX: not present
+  SSE: present
+  SSE2: present
+  SSE3: present
+  Serial number not present or disabled
+ 
+Processor 1:
+  CPU: Intel Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+  Family: 6, Model: 14, Stepping: 10
+  FPU: On-Chip
+  3DNow!: not present
+  MMX: not present
+  SSE: present
+  SSE2: present
+  SSE3: present
+  Serial number not present or disabled
+ 
+Processor 2:
+  CPU: Intel Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+  Family: 6, Model: 14, Stepping: 10
+  FPU: On-Chip
+  3DNow!: not present
+  MMX: not present
+  SSE: present
+  SSE2: present
+  SSE3: present
+  Serial number not present or disabled
+ 
+Processor 3:
+  CPU: Intel Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+  Family: 6, Model: 14, Stepping: 10
+  FPU: On-Chip
+  3DNow!: not present
+  MMX: not present
+  SSE: present
+  SSE2: present
+  SSE3: present
+  Serial number not present or disabled
+ 
+Processor 4:
+  CPU: Intel Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+  Family: 6, Model: 14, Stepping: 10
+  FPU: On-Chip
+  3DNow!: not present
+  MMX: not present
+  SSE: present
+  SSE2: present
+  SSE3: present
+  Serial number not present or disabled
+ 
+Processor 5:
+  CPU: Intel Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+  Family: 6, Model: 14, Stepping: 10
+  FPU: On-Chip
+  3DNow!: not present
+  MMX: not present
+  SSE: present
+  SSE2: present
+  SSE3: present
+  Serial number not present or disabled
+ 
+Loading system configuration from system_windows_pc.cfg...
+<20:25:57> GameDir: MultiplayerProject
+<20:25:57> Windows 8 64 bit (build 6.2.9200)
+<20:25:57> System language: Korean
+<20:25:57> Windows Directory: "C:\WINDOWS"
+<20:25:57> Local time is 20:25:57 11/12/19, system running for 385 minutes
+<20:25:57> 16309MB physical memory installed, 10326MB available, 134217727MB virtual memory installed, 36 percent of memory in use
+<20:25:57> PageFile usage: 40MB, Working Set: 34MB, Peak PageFile usage: 40MB,
+<20:25:57> Current display mode is 1920x1080x32, (Unknown graphics card)
+<20:25:57> Unknown keyboard and 16+ button mouse installed
+<20:25:57> --------------------------------------------------------------------------------
+<20:25:57> Stream Engine Initialization
+<20:25:57> GameName: Lumberyard
+<20:25:57> BuildTime: Jun 21 2016 16:48:02
+<20:25:57> Physics initialization
+<20:25:57> Renderer initialization
+<20:25:57> Logging video adapters:
+<20:25:57> - NVIDIA GeForce GTX 1660 Ti (vendor = 0x10de, device = 0x2182)
+<20:25:57>   - Adapter index: 0
+<20:25:57>   - Dedicated video memory: 5991 MB
+<20:25:57>   - Feature level: DX11 (SM 5.0)
+<20:25:57>   - Displays connected: yes
+<20:25:57>   - Suitable rendering device: yes
+<20:25:57> - Microsoft Basic Render Driver (vendor = 0x1414, device = 0x008c)
+<20:25:57>   - Adapter index: 1
+<20:25:57>   - Dedicated video memory: 0 MB
+<20:25:57>   - Feature level: DX11 (SM 5.0)
+<20:25:57>   - Displays connected: no
+<20:25:57>   - Suitable rendering device: no
+<20:25:58> Active GPUs: 1
+<20:25:59> <Audio>: AudioSystem initialization
+<20:26:05> Font initialization
+<20:26:05> Using FreeType 2.5.0
+<20:26:05> MovieSystem initialization
+<20:26:05> Time initialization
+<20:26:05> Input initialization
+<20:26:05> UI system initialization
+<20:26:05> AI initialization
+<20:26:05> Initializing Animation System
+<20:26:05> Initializing 3D Engine
+<20:26:05> Initializing Gems System
+<20:26:05> Script System Initialization
+<20:26:05> Entity system initialization
+<20:26:05> Network initialization
+<20:26:05> [Network Version]: RELEASE 
+<20:26:05> Initializing AI System
+<20:26:05> Initializing additional systems
+<20:26:05> Dynamic Response System initialization
+<20:26:05> No Dynamic Response System was loaded from a module, will use the NULL DynamicResponseSystem.
+<20:26:05> LmbrAWS system initialization
+<20:26:05> [GameProfiles]: Successfully activated profile 'default' for user 'DESKTOP-H6MP0ML::MultiplayerProjectLauncher'
+<20:26:05> Initializing default materials...
+<20:26:05>     sv_port = 0 [DUMPTODISK]
+<20:26:05>     gamelift_fleet_id = fleet-fakefleet [DUMPTODISK]
+<20:26:05>     gamelift_aws_access_key = AKIAIOSFODNN7EXAMPLE [DUMPTODISK]
+<20:26:05>     gamelift_aws_secret_key = wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY [DUMPTODISK]
+<20:26:05> ============================ Loading level gameliftsamplelobby ============================
+<20:26:05> GameRules: Set game rules to 00000257D4626780, GameRules
+<20:40:13> GameRules: Set game rules to 0000000000000000, <unknown>
+<20:40:13> GameRules: Set game rules to 0000000000000000, <unknown>
+<20:40:13> Initializing default materials...
+<20:40:13> GameRules: Set game rules to 00000257D46A7890, GameRules
+<20:40:14> [Game] Player 2074095542l owns character 1
+<20:40:14> [Game] Assigning character 1 to local player
+<20:40:14> Delegating script authority of entity 71 to client 2074095542
+<20:40:14> Delegating script authority of entity 73 to client 2074095542
+<20:40:14> Delegating physics network authority of entity 75 to client 2074095542
+<20:40:14> Delegating script authority of entity 75 to client 2074095542
+<21:21:49> GameRules: Set game rules to 0000000000000000, <unknown>
+<21:21:49> GameRules: Set game rules to 0000000000000000, <unknown>
+<21:21:49> System Shutdown

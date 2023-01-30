@@ -1,0 +1,10 @@
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\bin\Debug\KuTalkApp.exe.config
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\bin\Debug\KuTalkApp.exe
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\bin\Debug\KuTalkApp.pdb
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.csprojAssemblyReference.cache
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.Properties.Resources.resources
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.csproj.GenerateResource.cache
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.csproj.CoreCompileInputs.cache
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.exe
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.pdb
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.LoginForm.resources

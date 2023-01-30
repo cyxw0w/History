@@ -1,0 +1,191 @@
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\bin\Debug\KuTalkApp.exe.config
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\bin\Debug\KuTalkApp.exe
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\bin\Debug\KuTalkApp.pdb
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.csprojAssemblyReference.cache
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.Properties.Resources.resources
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.csproj.GenerateResource.cache
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.csproj.CoreCompileInputs.cache
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.exe
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.pdb
+C:\Users\ictsk\source\repos\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.LoginForm.resources
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\bin\Debug\KuTalkApp1.exe.config
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\bin\Debug\KuTalkApp1.exe
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\bin\Debug\KuTalkApp1.pdb
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.LoginForm.resources
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.Properties.Resources.resources
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.csproj.GenerateResource.cache
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.csproj.CoreCompileInputs.cache
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp1.exe
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp1.pdb
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\bin\Debug\MySql.Data.dll
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\bin\Debug\Google.Protobuf.dll
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\bin\Debug\Zstandard.Net.dll
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\bin\Debug\Renci.SshNet.dll
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\bin\Debug\System.Buffers.dll
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ictsk\Downloads\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.csproj.CopyComplete
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\bin\Debug\KuTalkApp1.exe.config
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\bin\Debug\KuTalkApp1.exe
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\bin\Debug\KuTalkApp1.pdb
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\bin\Debug\MySql.Data.dll
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\bin\Debug\Google.Protobuf.dll
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\bin\Debug\Zstandard.Net.dll
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\bin\Debug\Renci.SshNet.dll
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\bin\Debug\System.Buffers.dll
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.csprojAssemblyReference.cache
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.LoginForm.resources
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.Properties.Resources.resources
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.csproj.GenerateResource.cache
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.csproj.CoreCompileInputs.cache
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp.csproj.CopyComplete
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp1.exe
+C:\Users\ictsk\Desktop\강의\sw\KuTalkApp\KuTalkApp\obj\Debug\KuTalkApp1.pdb
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\bin\Debug\KuTalkApp1.exe.config
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\bin\Debug\KuTalkApp1.exe
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\bin\Debug\KuTalkApp1.pdb
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\bin\Debug\MySql.Data.dll
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\bin\Debug\Google.Protobuf.dll
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\bin\Debug\Zstandard.Net.dll
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\bin\Debug\Renci.SshNet.dll
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\bin\Debug\System.Buffers.dll
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\obj\Debug\KuTalkApp.LoginForm.resources
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\obj\Debug\KuTalkApp.Properties.Resources.resources
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\obj\Debug\KuTalkApp.csproj.GenerateResource.cache
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\obj\Debug\KuTalkApp.csproj.CoreCompileInputs.cache
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\obj\Debug\KuTalkApp.csproj.CopyComplete
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\obj\Debug\KuTalkApp1.exe
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\obj\Debug\KuTalkApp1.pdb
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\obj\Debug\KuTalkApp.csprojAssemblyReference.cache
+C:\Users\ictsk\Downloads\KuTalkApp_0528(1)\KuTalkApp\obj\Debug\KuTalkApp.MainForm.resources
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\bin\Debug\KuTalkApp1.exe.config
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\bin\Debug\KuTalkApp1.exe
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\bin\Debug\KuTalkApp1.pdb
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\bin\Debug\MySql.Data.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\bin\Debug\Google.Protobuf.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\bin\Debug\Zstandard.Net.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\bin\Debug\K4os.Compression.LZ4.Streams.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\bin\Debug\BouncyCastle.Crypto.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\bin\Debug\Ubiety.Dns.Core.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\bin\Debug\Renci.SshNet.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\bin\Debug\System.Buffers.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\bin\Debug\K4os.Compression.LZ4.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\bin\Debug\K4os.Hash.xxHash.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\obj\Debug\KuTalkApp.csprojAssemblyReference.cache
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\obj\Debug\KuTalkApp.LoginForm.resources
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\obj\Debug\KuTalkApp.MainForm.resources
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\obj\Debug\KuTalkApp.Properties.Resources.resources
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\obj\Debug\KuTalkApp.csproj.GenerateResource.cache
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\obj\Debug\KuTalkApp.csproj.CoreCompileInputs.cache
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\obj\Debug\KuTalkApp.csproj.CopyComplete
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\obj\Debug\KuTalkApp1.exe
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0528\KuTalkApp\obj\Debug\KuTalkApp1.pdb
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\bin\Debug\KuTalkApp1.exe.config
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\bin\Debug\KuTalkApp1.exe
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\bin\Debug\KuTalkApp1.pdb
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\bin\Debug\MySql.Data.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\bin\Debug\Google.Protobuf.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\bin\Debug\Zstandard.Net.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\bin\Debug\K4os.Compression.LZ4.Streams.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\bin\Debug\BouncyCastle.Crypto.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\bin\Debug\Ubiety.Dns.Core.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\bin\Debug\Renci.SshNet.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\bin\Debug\System.Buffers.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\bin\Debug\K4os.Compression.LZ4.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\bin\Debug\K4os.Hash.xxHash.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp.csprojAssemblyReference.cache
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp.LoginForm.resources
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp.MainForm.resources
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp.Properties.Resources.resources
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp.csproj.GenerateResource.cache
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp.csproj.CoreCompileInputs.cache
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp.csproj.CopyComplete
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp1.exe
+K:\lecture\ku\DCCS403-소프트웨어응용\02_강의자료\실습\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp1.pdb
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\bin\Debug\KuTalkApp1.exe.config
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\bin\Debug\KuTalkApp1.exe
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\bin\Debug\KuTalkApp1.pdb
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\bin\Debug\MySql.Data.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\bin\Debug\Google.Protobuf.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\bin\Debug\Zstandard.Net.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\bin\Debug\Renci.SshNet.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\bin\Debug\System.Buffers.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp.csprojAssemblyReference.cache
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp.LoginForm.resources
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp.MainForm.resources
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp.Properties.Resources.resources
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp.csproj.GenerateResource.cache
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp.csproj.CoreCompileInputs.cache
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp.csproj.CopyComplete
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp1.exe
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0604\KuTalkApp\obj\Debug\KuTalkApp1.pdb
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\bin\Debug\KuTalkApp1.exe.config
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\bin\Debug\KuTalkApp1.exe
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\bin\Debug\KuTalkApp1.pdb
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\bin\Debug\MySql.Data.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\bin\Debug\Google.Protobuf.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\bin\Debug\Zstandard.Net.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\bin\Debug\Renci.SshNet.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\bin\Debug\System.Buffers.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\obj\Debug\KuTalkApp.csprojAssemblyReference.cache
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\obj\Debug\KuTalkApp.LoginForm.resources
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\obj\Debug\KuTalkApp.MainForm.resources
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\obj\Debug\KuTalkApp.Properties.Resources.resources
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\obj\Debug\KuTalkApp.csproj.GenerateResource.cache
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\obj\Debug\KuTalkApp.csproj.CoreCompileInputs.cache
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\obj\Debug\KuTalkApp.csproj.CopyComplete
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\obj\Debug\KuTalkApp1.exe
+C:\Users\ywlim\Desktop\강의\고려대학교\KuTalkApp_0611\KuTalkApp\obj\Debug\KuTalkApp1.pdb
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\bin\Debug\KuTalkApp1.exe.config
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\bin\Debug\KuTalkApp1.exe
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\bin\Debug\KuTalkApp1.pdb
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\bin\Debug\MySql.Data.dll
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\bin\Debug\Google.Protobuf.dll
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\bin\Debug\Zstandard.Net.dll
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\bin\Debug\Renci.SshNet.dll
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\bin\Debug\System.Buffers.dll
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\obj\Debug\KuTalkApp.csprojAssemblyReference.cache
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\obj\Debug\KuTalkApp.LoginForm.resources
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\obj\Debug\KuTalkApp.MainForm.resources
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\obj\Debug\KuTalkApp.Properties.Resources.resources
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\obj\Debug\KuTalkApp.csproj.GenerateResource.cache
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\obj\Debug\KuTalkApp.csproj.CoreCompileInputs.cache
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\obj\Debug\KuTalkApp.csproj.CopyComplete
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\obj\Debug\KuTalkApp1.exe
+C:\Users\cyxw0w\Desktop\C#\KuTalkApp_0611_2 (1)\KuTalkApp\obj\Debug\KuTalkApp1.pdb

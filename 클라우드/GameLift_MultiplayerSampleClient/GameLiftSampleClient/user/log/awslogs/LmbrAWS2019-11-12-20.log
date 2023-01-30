@@ -1,0 +1,2 @@
+[INFO] 2019-11-12 20:26:06 WinHttpSyncHttpClient [8524] Creating http client with user agent aws-sdk-cpp/0.9.6-91-g20a97a9 Windows/6.2.9200- AMD64 with max connections 25 request timeout 3000,and connect timeout 1000
+[INFO] 2019-11-12 20:26:06 ConnectionPoolMgr [8524] Creating connection pool mgr with handle 00000257F06D60A0, and max connections per host 25, request timeout 3000 ms, and connect timeout in 1000 ms.

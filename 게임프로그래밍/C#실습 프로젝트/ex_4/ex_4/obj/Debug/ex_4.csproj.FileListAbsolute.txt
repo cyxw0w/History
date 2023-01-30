@@ -1,0 +1,6 @@
+C:\Users\cyxw0w\source\repos\ex_4\ex_4\bin\Debug\ex_4.exe.config
+C:\Users\cyxw0w\source\repos\ex_4\ex_4\bin\Debug\ex_4.exe
+C:\Users\cyxw0w\source\repos\ex_4\ex_4\bin\Debug\ex_4.pdb
+C:\Users\cyxw0w\source\repos\ex_4\ex_4\obj\Debug\ex_4.csproj.CoreCompileInputs.cache
+C:\Users\cyxw0w\source\repos\ex_4\ex_4\obj\Debug\ex_4.exe
+C:\Users\cyxw0w\source\repos\ex_4\ex_4\obj\Debug\ex_4.pdb

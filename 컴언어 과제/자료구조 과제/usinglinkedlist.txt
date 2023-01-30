@@ -1,0 +1,123 @@
+#include<iostream>
+#include<time.h>
+using namespace std;
+
+class Node {
+public:
+	float coef;
+	int exp;
+	Node *link;
+	Node *head;
+};
+
+Node *createList() {
+	Node *h;
+	h = new Node;
+	h->head = NULL;
+	return h;
+};
+
+void addLastNode(Node *h, float coef, int exp) {
+	Node *stN;
+	Node *p;
+	stN = new Node;
+	stN->coef = coef;
+	stN->exp = exp;
+	stN->link = NULL;
+	if (h->head == NULL) {
+		h->head = stN;
+		return;
+	}
+	else {
+		p = h->head;
+		while (p->link != NULL) {
+			p = p->link;
+		}
+		p->link = stN;
+	}
+}
+void addPoly(Node * a, Node * b, Node * s) {
+	Node * pA = a->head;
+	Node * pB = b->head;
+
+	float sum;
+	while (pA && pB) {
+		if (pA->exp == pB->exp) {
+			sum = pA->coef + pB->coef;
+			addLastNode(s, sum, pA->exp);
+			pA = pA->link; pB = pB->link;
+		}
+		else if (pA->exp > pB->exp) {
+			addLastNode(s, pA->coef, pA->exp);
+			pA = pA->link;
+		}
+		else {
+			addLastNode(s, pB->coef, pB->exp);
+			pB = pB->link;
+		}
+	}
+	for (; pA != NULL; pA = pA->link)
+		addLastNode(s, pA->coef, pA->exp);
+	for (; pB != NULL; pB = pB->link)
+		addLastNode(s, pB->coef, pB->exp);
+}
+
+void printPoly(Node * L) {
+	Node* p = L->head;
+	for (; p; p = p->link) {
+		cout << p->coef << "x^" << p->exp;
+		if (p->exp != NULL)
+			cout << " + ";
+	}
+}
+
+void main(void) {
+	srand((unsigned int)time(NULL));
+
+	Node *P, *Q, *S;
+	P = createList();
+	Q = createList();
+	S = createList();
+	float data = 0.0;
+	int size = 0;
+	cout << "1번 다항식 차수 입력 : ";
+	cin >> size;
+	while (size + 1) {
+		bool a = 1;
+		while (a) {
+			int num = rand();
+			if (0 <= num && num <= 99) {
+				data = num / 10.0;
+				a = 0;
+			}
+		}
+		addLastNode(P, data, size);
+		size--;
+	}
+	cout << "1번 다항식 : ";
+	printPoly(P);
+	size = 0;
+	data = 0.0;
+	cout << "\n2번 다항식 차수 입력 : ";
+	cin >> size;
+	while (size + 1) {
+		bool a = 1;
+		while (a) {
+			int num = rand();
+			if (0 <= num && num <= 99) {
+				data = num / 10.0;
+				a = 0;
+			}
+		}
+		addLastNode(Q, data, size);
+		size--;
+	}
+	cout << "2번 다항식 : ";
+	printPoly(Q);
+	cout << endl;
+	addPoly(P, Q, S);
+
+	printPoly(S);
+	cout << endl;
+
+}

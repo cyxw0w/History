@@ -1,0 +1,148 @@
+//차수를 입력받음
+
+//차수에 대한 리스트가 자동 생성
+
+//2개의 다항식을 비교 및 덧셈
+
+// 그 결과를 표현함
+
+
+//객체 : 차수를 받아야됨 , 순서대로 난수 삽입 (index를 0부터 시작 차수를 오름차순 진행)
+
+// 해당 리스트 출력( 거꾸로 내림차순으로 출력 )
+
+// 덧셈 맴버함수 넣기 (main문에서 함수 이용 두개 리스트를 새로운 리스트에 덧셈 진행 후 삽입)
+
+// 이때 주의할 것은 차수를 입력받는 것이 아니라 있는 리스트를 서로 더해야되는 문제 발생....
+
+// 그렇기때문에 우선적으로는 두 리스트의 exp를 메인문에서 확인 후 sum리스트의 exp를 제일 큰 exp로 삽입
+
+// 남는 exp에 대한 값은 그대로 삽입
+
+// 결과물 출력
+
+
+
+
+
+
+
+#include<iostream>
+#include<time.h>
+using namespace std;
+
+class node {
+public:
+
+	float coef;  //계수	( 노드에 들어가는 데이터 값 )
+	int exp;  // 차수 확인 ( 리스트 사이즈와 같은 의미 )
+
+			  //	node *link;  //링크 ( 링크가 가리키는 포인터 )
+
+	node(int exp) {
+		//	link = new node[exp];
+		this->exp = exp;
+	};
+	node() {};
+};
+
+void main() {
+
+	srand((unsigned)time(NULL));
+	int i, j, temp;
+	int exp;
+	node p[100];
+	node s[100];
+	node q[100];
+
+	cout << "1번 다항식 차수 입력 : ";
+	cin >> exp;
+
+	p[0].exp = exp;
+	//	node *p = new node[exp];
+
+	cout << "2번 다항식 차수 입력 : ";
+	cin >> exp;
+
+	q[0].exp = exp;
+	for (i = 0; i < p[0].exp; i++) {
+		bool a = 1;
+		while (a) {
+			int num = rand();
+			if (0 <= num && num <= 99) {
+				p[i].coef = num / 10.0;
+				a = 0;
+			}
+		}
+	}
+
+	for (i = 0; i < q[0].exp; i++) {
+		bool a = 1;
+		while (a) {
+			int num = rand();
+			if (0 <= num && num <= 99) {
+				q[i].coef = num / 10.0;
+				a = 0;
+			}
+		}
+	}
+	exp = s[0].exp = (p[0].exp >= q[0].exp) ? p[0].exp : q[0].exp;
+	
+	cout << "1번 다항식 : ";
+	temp = p[0].exp;
+		for (j = 0; j < p[0].exp; j++) {
+
+		cout << p[j].coef << "x^" << temp--;
+
+		if (temp != NULL)
+
+			cout << " + ";
+
+	}
+
+	cout << endl;
+
+	temp = q[0].exp;
+
+	cout << "2번 다항식 : ";
+
+	for (j = 0; j < q[0].exp; j++) {
+		cout << q[j].coef << "x^" << temp--;
+		if (temp != NULL)
+			cout << " + ";
+	}
+
+	cout << endl;
+
+	if (p[0].exp == q[0].exp)
+		for (i = 0; i < exp; i++)
+			s[i].coef = p[i].coef + q[i].coef;
+
+	else if (p[0].exp > q[0].exp) {
+		int a = p[0].exp - q[0].exp;
+
+		for (i = 0; i < p[0].exp; i++)
+			s[i].coef = p[i].coef;
+		for (i = 0; i < q[0].exp; i++) {
+			s[i + a].coef = p[i].coef + q[i].coef;
+		}
+	}
+
+	else if (p[0].exp < q[0].exp) {
+		int a = q[0].exp - p[0].exp;
+
+		for (; i < q[0].exp; i++)
+			s[i].coef = q[i].coef;
+
+		for (i = 0; i < p[0].exp; i++) {
+			s[i + a].coef = p[i].coef + q[i].coef;
+		}
+	}
+	for (j = 0; j < s[0].exp; j++) {
+		cout << s[j].coef << "^" << exp--;
+		if (exp != NULL)
+			cout << "+";
+	}
+	cout << endl;
+
+}

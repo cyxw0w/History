@@ -1,0 +1,6 @@
+C:\Users\cyxw0w\source\repos\ForeachWithVar\ForeachWithVar\bin\Debug\ForeachWithVar.exe.config
+C:\Users\cyxw0w\source\repos\ForeachWithVar\ForeachWithVar\bin\Debug\ForeachWithVar.exe
+C:\Users\cyxw0w\source\repos\ForeachWithVar\ForeachWithVar\bin\Debug\ForeachWithVar.pdb
+C:\Users\cyxw0w\source\repos\ForeachWithVar\ForeachWithVar\obj\Debug\ForeachWithVar.csproj.CoreCompileInputs.cache
+C:\Users\cyxw0w\source\repos\ForeachWithVar\ForeachWithVar\obj\Debug\ForeachWithVar.exe
+C:\Users\cyxw0w\source\repos\ForeachWithVar\ForeachWithVar\obj\Debug\ForeachWithVar.pdb

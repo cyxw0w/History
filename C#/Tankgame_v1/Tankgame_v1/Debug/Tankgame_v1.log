@@ -1,0 +1,4 @@
+﻿  Tankgame_v1_test.cpp
+c:\users\cyxw0w\desktop\c#\tankgame_v1\tankgame_v1\tankgame_v1_test.cpp(161): warning C4101: 'str' :참조되지 않은 지역 변수입니다.
+c:\users\cyxw0w\desktop\c#\tankgame_v1\tankgame_v1\tankgame_v1_test.cpp(157): warning C4101: 'hitPosition' :참조되지 않은 지역 변수입니다.
+  Tankgame_v1.vcxproj -> C:\Users\cyxw0w\Desktop\C#\Tankgame_v1\Debug\Tankgame_v1.exe
